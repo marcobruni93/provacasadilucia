@@ -1,0 +1,1030 @@
+@media screen and (max-width:768px)
+
+
+
+{
+/*header*/
+
+body {background-color:whitesmoke;}
+
+.header { background-color:black; height:30vw;}
+.contenitoreBarra {display:flex;flex-direction: row;justify-content: center;align-items:center;padding-right:2%;padding-left:2%;padding-bottom: 2%;margin-bottom: 2vw;}
+.baraTutti {width:100%;display:flex;justify-content: space-around;align-items: center;margin-top: 4vw;}
+.baraTutti:hover {border-left:0.2em solid white;border-right:0.2em solid white}
+.baraTutti a {text-decoration: none;color:white;font-size:4vw}
+.fooder {height:20vh;background-color:black;}
+.titolo {text-align: center;font-family: 'Tapestry', cursive; font-size: 6vw;letter-spacing: 2vw;color:white;}
+
+/*home*/
+  
+    #centroHome {display:flex;flex-direction: row;margin-bottom: 4vw;justify-content: center;}
+    #vuotoHome {flex:0.2}
+    #testoHome {flex:0.85;}
+    .testoHomeStile {font-family: 'Dancing Script', cursive;font-size:3.5vw;;text-align: justify;text-align: center;}
+    .testoHomeStile1 {font-family: 'Dancing Script', cursive;font-size:3.5vw;;text-align: justify;text-align: center;}
+    #immagineHome {display: flex;flex-direction: row;align-items:center;justify-content:center;height:70vw;}
+    #immagineHome button 
+    {
+        color:black;
+        width:4vw;
+        height:4vw;
+        border-radius: 5vw;
+        border:0.3vw solid black;
+        font-size:2vw;
+        cursor:pointer;
+        
+    }
+    
+    
+    
+    #immagineHomeFiglio 
+    {
+        display:flex;justify-content: center;
+        height:80%;
+        width:70%;
+        
+    }
+    
+    #immagineHome img 
+    {
+       
+        height:55vw;
+        width:95%;
+        display:none;
+        border:0.7vw solid black;
+        
+    }
+    #immagineHome img:nth-child(1)
+    {
+        display:block;
+    }
+    
+    #immagine {height:12%;width:7%;border-radius: 10%;cursor: pointer;}
+    
+    
+    #menuTendina {
+    
+        background-color: #333;
+        color:white;
+        display:none;
+        border-radius: 10%;
+    }
+    
+    #menuTendina.attivato{
+    
+    
+        display:block;
+        height:20%;
+        width:20%;
+        
+    }
+
+
+/*lucia.html*/
+
+
+.layoutBarra {display:flex;flex-direction: row;justify-content: space-around;margin:3vh 2vh;height:100vw}
+.sottolayoutBarra {display: flex; flex-direction: column;;margin:0.3em;flex:25%;margin-top:7vh}
+
+
+input[type="button"] {
+    width:100%;
+    height:5vw;
+    
+    font-weight: bold;
+    
+    border:1vw solid black;
+    cursor: pointer;
+    background-color: #333;
+    color:white;
+}
+
+
+input:hover {
+    background-color: #666;
+}
+
+.paesi {
+    background-color: #333;
+    
+    display:none;
+}
+
+
+
+.paesi.active li {
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+.paesi.active {
+
+
+    display:block;
+    height:auto;
+    width:100%;
+    
+    
+}
+
+nav ul {
+    margin:1vh;
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+    
+    
+}
+
+nav ul li:hover{
+    background-color: #666;
+}
+
+
+
+nav ul a {
+
+    color:white;
+    text-decoration: none;
+    font-size:2vh;
+    margin:1vh;
+    
+}
+
+#toggle {height:15vw;font-size: 2vw;-webkit-appearance: none;
+    -webkit-border-radius: 0;}
+#toggl {height:15vw;font-size: 2vw;-webkit-appearance: none;
+    -webkit-border-radius: 0;}
+#togg {height:15vw;font-size: 2vw;-webkit-appearance: none;
+    -webkit-border-radius: 0;}
+#tog {height:15vw;font-size: 2vw;-webkit-appearance: none;
+    -webkit-border-radius: 0;}
+
+
+
+
+
+
+
+
+/* sfondo dei paesi */
+
+
+
+
+#sanvito {
+    height:30vw;
+    width:100%;
+    background-image:url(immagini/san-vito-chietino-notte-hd.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    
+
+}
+
+#lanciano {
+    
+    height:30vw;
+    width:100%;
+    background-image:url(immagini/lanciano10.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    
+}
+
+#ortona { 
+    height:30vw;
+    width:100%;
+    background-image:url(immagini/ortona.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    
+
+}
+#fossacesia { 
+    height:30vw;
+    width:100%;
+    background-image:url(immagini/fossacesia.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    
+
+}
+
+/*SAN VITO CHIETINO*/
+
+#containerSanvito {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(38,104,223,0.9752275910364145) 100%);
+margin:3vh 2vh;height:100%}
+
+.layoutSanvito
+{
+display:flex;flex-direction: row;padding:1vw;
+
+}
+
+#layoutImmaginiPaesi
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/pistaciclabilesanvito.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesi1
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/belvedereGuglielmoMarconi.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesi2
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/trabocchi.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesi3
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/eremo.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+/*SPIAGGUA SAN VITO*/
+
+
+.containerSpiaggia 
+
+{
+display:flex;flex-direction: row; 
+padding:2vw;
+}
+
+.spiaggiaVuoto
+{
+flex:1;
+
+
+
+}
+
+.spiaggiaTesto
+{
+    flex:1.2;
+    display:flex;flex-direction:column; justify-content: space-around;align-items: center;
+    text-align: justify;
+    font-size: 2vw;
+}
+
+.spiaggiaImmagine
+{
+
+    flex:1;
+    text-align: center;
+    display:flex;flex-direction:column;justify-content: center;
+    
+}
+.titoloSpiagge
+ {
+  font-size:2.3vw
+}
+.spiaggiaImmagineSanvito 
+{
+    
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/sanMartino.png);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    clip-path: circle(50% at 50% 50%);
+}
+.spiaggiaImmagineSanvito1
+{
+    
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/mucchiola.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.spiaggiaImmagineSanvito2
+{
+    
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/roccoMancini.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.immaginePosizione
+
+{
+cursor:pointer;
+height:4vw;
+}
+/*DOVE MANGIARE SAN VITO CHIETINO */
+
+.posizioneDoveMangiare a {color:white}
+.containerDoveMangiare
+{
+    display:flex;flex-direction: column;height:100%; justify-content: center;align-items: center; margin: 3vh 2vh
+}
+
+.colazione 
+
+{
+    
+    display:flex;flex-direction: column; height:60%;width:80%; justify-content: center;align-items: center; border:2px solid black;margin:1vw; background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(38,104,223,0.9752275910364145) 100%);
+}
+.layoutColazione 
+{
+    display: flex;flex-direction: row;  height:22vw;width:80%;
+}
+
+.pranzo
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(38,104,223,0.9752275910364145) 100%);
+}
+.layoutPranzo
+{
+    display: flex;flex-direction: row;  height:22vw;width:80%;
+}
+.aperitivo
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(38,104,223,0.9752275910364145) 100%);
+}
+
+.layoutAperitivo
+{
+    display: flex;flex-direction: row;  height:22vw;width:80%;
+}
+
+.cena
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(38,104,223,0.9752275910364145) 100%);
+}
+
+.layoutCena
+{
+    display: flex;flex-direction: row;  height:22vw;width:80%;
+}
+.primoLocale
+{
+    
+    background-image: url(immagini/caffe.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    display:flex;flex-direction:column;justify-content: center;align-items:center;
+    flex:1;margin:1vw;
+    border-radius: 5%;
+
+
+    
+}
+
+.posizioneRecensione
+{
+    display:flex;flex-direction: row;height:100%;width:90%;
+}
+
+.recensioneDoveMangiare
+{
+
+    display:flex;flex-direction: column;justify-content: center;align-items: center;
+    flex:1;
+    
+}
+
+.posizioneDoveMangiare
+{
+
+    display:flex;flex-direction: column;justify-content: center;align-items: center;
+    flex:1;
+    
+}
+
+.secondoLocale
+{
+    
+    background-image: url(immagini/lasagna.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:flex;flex-direction:column;justify-content: center;align-items:center;
+    flex:1;margin:1vw;
+    border-radius: 5%;
+
+}
+
+
+
+
+.terzoLocale
+{
+    background-image: url(immagini/aperitivo.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:flex;flex-direction:column;justify-content: center;align-items:center;
+    flex:1;margin:1vw;
+    border-radius: 5%;
+}
+
+
+.quartoLocale
+{
+    display:flex;flex-direction:column;justify-content: center;align-items:center;
+    flex:1;margin:1vw;
+    border-radius: 5%;
+    background-image: url(immagini/cena1.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.titoloDoveMangiare
+{
+    font-size: 2.6vw;
+}
+.titoloLocale
+{
+    font-size: 2vw;
+}
+.recensioneDoveMangiare p {font-weight:bolder;}
+.posizioneDoveMangiare p {font-weight:bolder;}
+
+/*DOVE MANGIARE LANCIANO*/
+.colazioneLanciano
+
+{
+    
+    display:flex;flex-direction: column; height:60%;width:80%; justify-content: center;align-items: center; border:2px solid black;margin:1vw; background: radial-gradient(circle, rgba(52,57,83,0.9220063025210083) 0%, rgba(210,55,24,0.9248074229691877) 100%);
+}
+.pranzoLanciano
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;
+    background: radial-gradient(circle, rgba(52,57,83,0.9220063025210083) 0%, rgba(210,55,24,0.9248074229691877) 100%);
+}
+
+.aperitivoLanciano
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;background: radial-gradient(circle, rgba(52,57,83,0.9220063025210083) 0%, rgba(210,55,24,0.9248074229691877) 100%);
+}
+
+.cenaLanciano
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;background: radial-gradient(circle, rgba(52,57,83,0.9220063025210083) 0%, rgba(210,55,24,0.9248074229691877) 100%);
+}
+/*DOVE MANGIARE ORTONA*/
+.colazioneOrtona
+
+{
+    
+    display:flex;flex-direction: column; height:60%;width:80%; justify-content: center;align-items: center; border:2px solid black;margin:1vw; background: radial-gradient(circle, rgba(228,219,21,0.8631827731092436) 0%, rgba(27,131,79,0.9136029411764706) 100%)
+}
+    .pranzoOrtona
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;
+    background: radial-gradient(circle, rgba(228,219,21,0.8631827731092436) 0%, rgba(27,131,79,0.9136029411764706) 100%)
+}
+
+.aperitivoOrtona
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;background: radial-gradient(circle, rgba(228,219,21,0.8631827731092436) 0%, rgba(27,131,79,0.9136029411764706) 100%)
+}
+.cenaOrtona
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;background: radial-gradient(circle, rgba(228,219,21,0.8631827731092436) 0%, rgba(27,131,79,0.9136029411764706) 100%)
+}
+/*DOVE MANGIARE FOSSACESIA*/
+
+.colazioneFossacesia
+
+{
+    
+    display:flex;flex-direction: column; height:60%;width:80%; justify-content: center;align-items: center; border:2px solid black;margin:1vw; background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(221,17,24,0.9752275910364145) 100%)
+}
+    .pranzoFossacesia
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;
+    background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(221,17,24,0.9752275910364145) 100%)
+}
+
+.aperitivoFossacesia
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(221,17,24,0.9752275910364145) 100%)
+}
+.cenaFossacesia
+
+{
+    
+    display:flex;flex-direction: column; height:50%;width:80%; justify-content: center;align-items: center;border:2px solid black;margin:1vw;background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(221,17,24,0.9752275910364145) 100%)
+}
+/*LANCIANO */
+#containerLanciano {
+    background: rgb(52,57,83);
+background: radial-gradient(circle, rgba(52,57,83,0.9220063025210083) 0%, rgba(210,55,24,0.9248074229691877) 100%);
+margin:3vh 2vh;height:100%}
+
+.layoutLanciano
+{
+display:flex;flex-direction: row;padding:1vw;
+
+}
+
+#layoutImmaginiPaesiLanciano
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/miracoloEucaristico1.jpeg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesiLanciano1
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/lanciano10.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesiLanciano2
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/corsoLanciano.jpeg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesiLanciano3
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/cattedrale.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+
+
+/*ORTONA*/
+
+#containerOrtona {
+    background: rgb(228,219,21);
+background: radial-gradient(circle, rgba(228,219,21,0.8631827731092436) 0%, rgba(27,131,79,0.9136029411764706) 100%);
+margin:3vh 2vh;height:100%}
+
+.layoutOrtona
+{
+display:flex;flex-direction: row;padding:1vw;
+}
+
+#layoutImmaginiPaesiOrtona
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/castelloAragonese.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesiOrtona1
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/chiesaSanTommaso.jpeg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesiOrtona2
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/orientale.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesiOrtona3
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/palazzoFarnese.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+
+/*FOSSACESIA*/
+
+#containerFossacesia {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(221,17,24,0.9752275910364145) 100%);
+    margin:3vh 2vh;height:100%}
+
+.layoutFossacesia
+{
+display:flex;flex-direction: row;padding:1vw;
+
+}
+
+#layoutImmaginiPaesiFossacesia
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/Abbazia.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesiFossacesia1
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/pistaciclabileFossacesia.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesiFossacesia2
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/corsoLanciano.jpeg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#layoutImmaginiPaesiFossacesia3
+ {
+     flex:1;
+    height:25vw;
+    margin:0.5vw;
+    background-image:url(immagini/cattedrale.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+
+
+.titoloPaesi {font-size: 2.5vw;}
+.descrizione {font-size: 2vw;text-align:justify;padding:0.5vw;font-family: 'Dancing Script', cursive;font-size:calc(1.2em+3vw);text-align: justify;text-align: center;}
+
+
+.layoutTestoPaesi 
+{
+display:flex;flex-direction: column;align-items: center;justify-content: center;
+
+flex:1;
+
+}
+
+
+#provaImmagine 
+{
+
+    height:50px;
+}
+
+
+
+/*SERVIZI*/
+
+
+
+.contenitoreServizi 
+{
+    display:flex;flex-direction: column;align-items: center;height:100%;
+}
+
+.layoutServizi 
+{
+    display: flex;flex-direction: column;height:35vw;width:80vw;justify-content: space-around;align-items: center;margin:2vw 2vw;
+}
+
+.layoutItem 
+{
+display:flex;flex-direction: row;height:100%;width:90%;flex:2;align-items:center;
+}
+
+
+.layoutItemT
+{
+display:flex;flex-direction: column;height:100%;width:90%;justify-content: center;align-items: center;flex:1;
+}
+
+.itemTripPosi {display:flex;flex-direction: column;justify-content: center;align-items: center;flex:1;}
+.itemTripPosi a {width:100%;height:80%;display:flex;justify-content: center;align-items: center;}
+.itemTripPosi p a {text-decoration: none;color:black;}
+
+.itemFoto
+ {
+    flex:2;background-image: url(immagini/alimentari.png);background-position: center;background-repeat: no-repeat;height:100%;width:40%;background-size: cover;display:flex;
+}
+
+
+.itemFoto1
+ {
+    flex:2;background-image: url(immagini/carne1.png);background-position: center;background-repeat: no-repeat;height:90%;width:50%;background-size: contain;
+}
+.itemFoto2
+ {
+    flex:2;background-image: url(immagini/tiffany.png);background-position: center;background-repeat: no-repeat;height:90%;width:50%;background-size: contain;
+}
+
+.itemFoto3
+ {
+    flex:2;background-image: url(immagini/zoo.png);background-position: center;background-repeat: no-repeat;height:90%;width:50%;background-size: contain;
+}
+
+.itemFoto4
+ {
+    flex:2;background-image: url(immagini/red.png);background-position: center;background-repeat: no-repeat;height:90%;width:50%;background-size: contain;
+}
+
+
+.itemFoto5
+ {
+    flex:2;background-image: url(immagini/ufficioPostale.png);background-position: center;background-repeat: no-repeat;height:90%;width:50%;background-size: contain;
+}
+
+.itemFoto6
+ {
+    flex:2;background-image: url(immagini/bancomat.png);background-position: center;background-repeat: no-repeat;height:90%;width:50%;background-size: contain;
+}
+.itemFoto7
+ {
+    flex:2;background-image: url(immagini/fermataBus.png);background-position: center;background-repeat: no-repeat;height:70%;width:50%;background-size: contain;
+}
+.immaginePosizione1 
+{
+    height:50%;width:60%;
+}
+
+.immaginePosizione2
+{
+    height:60%;width:60%;
+}
+
+
+/*TRASPORTI SAN VITO*/
+
+.contenitoreTrasportiSfondo
+{
+    
+    background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(38,104,223,0.9752275910364145) 100%);margin:2vw;
+    
+}
+.contenitoreTrasporti 
+{
+    display:flex;justify-content: center;align-items: center;
+    height:50vw;width:96vw;
+}
+
+.immagineBus
+{
+    height:60%;width:50%;
+    background-image: url(immagini/bus.png);
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+}
+.immagineTreno 
+{
+    height:60%;width:50%;
+    background-image: url(immagini/treno.png);
+    background-position: center;
+    background-size: 65% auto;
+    background-repeat:no-repeat;
+}
+
+.titoloPrincipaleTrasporti
+{
+    text-align:center;font-size: 5vw;
+}
+.titoloTrasporti 
+{
+    text-align:center;font-size:3vw;
+}
+.layoutTrasporti
+{
+    display: flex;flex-direction: row;height:20vw;width:96vw;
+}
+.layoutFermata
+
+{
+    flex:1;
+}
+
+.layoutOrari
+
+{
+    flex:1;
+}
+
+.disposizioneFermata 
+
+{
+    display: flex;flex-direction: row;width:100%;height:100%;
+}
+
+.iconaFermata 
+{
+    flex:1; display:flex;justify-content: center;align-items: center;
+
+}
+.iconaFermata a
+{
+   display:flex;justify-content: center;align-items: center;flex:1;
+
+}
+
+
+.iconaFermata a img 
+{
+    height:70%;width:70%;
+
+}
+.testoFermata 
+{
+    flex:1;display:flex;justify-content: center;align-items: center;
+}
+
+.testoFermata a
+{
+    text-decoration: none;color:black;
+}
+.testoFermata p
+{
+    font-size: 3vw;text-align: center;
+}
+.ingloboIcona
+{
+    display:flex;flex-direction: column;flex:1;
+
+}
+.ingloboTesto
+{
+    display:flex;flex-direction: column;flex:3
+}
+
+.layoutOrari
+
+{
+    flex:1;
+}
+.disposizioneOrari
+{
+    display:flex;flex-direction: row;width:100%;height:100%;
+
+}
+.iconaOrari
+{
+    flex:1;display:flex;align-items: center;
+}
+.iconaOrari a
+{
+     display:flex;justify-content: center;align-items: center;flex:1;
+}
+
+.iconaOrari img 
+{
+   width:70%;
+}
+.testoOrari
+{
+    flex:3;display:flex;justify-content: center;align-items: center;
+}
+
+.testoOrari a
+{
+    text-decoration: none;color:black;
+}
+
+.testoOrari p
+{
+    font-size:3vw;display:flex;justify-content: center;align-items: center;
+}
+
+/*TRASPORTI LANCIANO*/
+
+.contenitoreTrasportiSfondo1
+{
+    
+   
+    background: radial-gradient(circle, rgba(52,57,83,0.9220063025210083) 0%, rgba(210,55,24,0.9248074229691877) 100%);margin:2vw;
+    
+}
+
+
+/*TRASPORTI ORTONA*/
+.contenitoreTrasportiSfondo2
+{
+    background: radial-gradient(circle, rgba(228,219,21,0.8631827731092436) 0%, rgba(27,131,79,0.9136029411764706) 100%);margin:2vw;
+   
+    
+    
+}
+
+/*TRASPORTI FOSSACESIA*/
+.contenitoreTrasportiSfondo3
+{
+    background: radial-gradient(circle, rgba(255,255,255,0.8631827731092436) 0%, rgba(221,17,24,0.9752275910364145) 100%);margin:2vw;
+    
+    
+}
+
+
+}
+
+
